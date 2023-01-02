@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2023/01/01/hello-world/</url>
+    <content><![CDATA[<figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="built_in">print</span>(<span class="string">&quot;Hello World&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">hello</span> &#123;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;</span><br><span class="line">        System.out.println(<span class="string">&quot;Hello World&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<span id="more"></span>
+
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">include</span> <span class="string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">main</span><span class="params">()</span> </span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    cout &lt;&lt; <span class="string">&quot;Hello, World!&quot;</span>;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight matlab"><table><tr><td class="code"><pre><span class="line">fprintf(<span class="string">&#x27;hello world!&#x27;</span>);</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>Code</category>
+        <category>Python</category>
+        <category>Java</category>
+        <category>c++</category>
+        <category>matlab</category>
+      </categories>
+      <tags>
+        <tag>Programming</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>搭建Hexo博客|NexT主题</title>
+    <url>/2023/01/01/test1/</url>
+    <content><![CDATA[<h2 id="环境准备"><a href="#环境准备" class="headerlink" title="  环境准备"></a><i class="fa-solid fa-clipboard-list"></i>  环境准备</h2><ul>
+<li>Git<ul>
+<li><a href="https://git-scm.com/downloads">Git - Downloads (git-scm.com)</a></li>
+</ul>
+<p>		</p>
+</li>
+<li>Node.js<ul>
+<li><a href="https://nodejs.org/zh-cn/download/">下载 | Node.js (nodejs.org)</a></li>
+</ul>
+</li>
+</ul>
+<span id="more"></span>
+
+<h3 id="1-安装cnpm"><a href="#1-安装cnpm" class="headerlink" title="(1)安装cnpm"></a>(1)安装cnpm</h3><h4 id="git-bash执行"><a href="#git-bash执行" class="headerlink" title="git bash执行"></a>git bash执行</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install -g cnpm --registry=https://registry.npm.taobao.org</span><br></pre></td></tr></table></figure>
+
+<h3 id="2-安装hexo-Hexo"><a href="#2-安装hexo-Hexo" class="headerlink" title="(2)安装hexo|Hexo"></a>(2)安装hexo|<a href="https://hexo.io/zh-cn/index.html">Hexo</a></h3><h4 id="管理员打开cmd执行"><a href="#管理员打开cmd执行" class="headerlink" title="管理员打开cmd执行"></a>管理员打开cmd执行</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cnpm install -g hexo-cli </span><br></pre></td></tr></table></figure>
+
+<h2 id="初始化博客"><a href="#初始化博客" class="headerlink" title="  初始化博客"></a><i class="fa-solid fa-folder"></i>  初始化博客</h2><h3 id="（1）新建文件夹（例：D-x2F-myblog-，在该文件夹下右键git-bash-here，执行"><a href="#（1）新建文件夹（例：D-x2F-myblog-，在该文件夹下右键git-bash-here，执行" class="headerlink" title="（1）新建文件夹（例：D:&#x2F;myblog) ，在该文件夹下右键git bash here，执行"></a>（1）新建文件夹（例：D:&#x2F;myblog) ，在该文件夹下右键git bash here，执行</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
+
+<h4 id="到Install-dependencies的时候你可能会卡住，只需要在这里的时候结束命令，按Ctrl-c就可以结束命令。然后执行下面这个命令，就可以使用国内的镜像为你完成博客的初始化工作"><a href="#到Install-dependencies的时候你可能会卡住，只需要在这里的时候结束命令，按Ctrl-c就可以结束命令。然后执行下面这个命令，就可以使用国内的镜像为你完成博客的初始化工作" class="headerlink" title="到Install dependencies的时候你可能会卡住，只需要在这里的时候结束命令，按Ctrl + c就可以结束命令。然后执行下面这个命令，就可以使用国内的镜像为你完成博客的初始化工作"></a>到<code>Install dependencies</code>的时候你可能会卡住，只需要在这里的时候结束命令，按<code>Ctrl + c</code>就可以结束命令。然后执行下面这个命令，就可以使用国内的镜像为你完成博客的初始化工作</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cnpm install</span><br></pre></td></tr></table></figure>
+
+<h4 id="等待命令完成后，就完成了初始化"><a href="#等待命令完成后，就完成了初始化" class="headerlink" title="等待命令完成后，就完成了初始化"></a>等待命令完成后，就完成了初始化</h4><h3 id="（2）执行命令hexok-s，打开网址-http-localhost-4000"><a href="#（2）执行命令hexok-s，打开网址-http-localhost-4000" class="headerlink" title="（2）执行命令hexok s，打开网址 http://localhost:4000/"></a>（2）执行命令<code>hexok s</code>，打开网址 <a href="http://localhost:4000/">http://localhost:4000/</a></h3><h2 id="更换主题"><a href="#更换主题" class="headerlink" title="  更换主题"></a><i class="fa-solid fa-gear"></i>  更换主题</h2><h3 id="（1）所有主题Themes-Hexo"><a href="#（1）所有主题Themes-Hexo" class="headerlink" title="（1）所有主题Themes | Hexo"></a>（1）所有主题<a href="https://hexo.io/themes/">Themes | Hexo</a></h3><h3 id="（2）NexT主题安装NexT-Theme-for-Hexo-theme-next-js-org"><a href="#（2）NexT主题安装NexT-Theme-for-Hexo-theme-next-js-org" class="headerlink" title="（2）NexT主题安装NexT - Theme for Hexo (theme-next.js.org)"></a>（2）NexT主题安装<a href="https://theme-next.js.org/">NexT - Theme for Hexo (theme-next.js.org)</a></h3><h4 id="Github-GitHub-next-theme-x2F-hexo-theme-next"><a href="#Github-GitHub-next-theme-x2F-hexo-theme-next" class="headerlink" title="Github|GitHub - next-theme&#x2F;hexo-theme-next"></a>Github|<a href="https://github.com/next-theme/hexo-theme-next">GitHub - next-theme&#x2F;hexo-theme-next</a></h4><h4 id="git-bash执行命令"><a href="#git-bash执行命令" class="headerlink" title="git bash执行命令"></a>git bash执行命令</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git clone https://github.com/next-theme/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
+
+<h4 id="git-clone-下载地址-themes-x2F-next"><a href="#git-clone-下载地址-themes-x2F-next" class="headerlink" title="git clone 下载地址 themes&#x2F;next"></a>git clone 下载地址 themes&#x2F;next</h4><h4 id="把文件夹下载到主题目录下，并把主题文件命名为next"><a href="#把文件夹下载到主题目录下，并把主题文件命名为next" class="headerlink" title="把文件夹下载到主题目录下，并把主题文件命名为next"></a>把文件夹下载到主题目录下，并把主题文件命名为next</h4><h3 id="（3）After-the-installation-open-Hexo-config-file-and-set-theme-variable-to-next"><a href="#（3）After-the-installation-open-Hexo-config-file-and-set-theme-variable-to-next" class="headerlink" title="（3）After the installation, open Hexo config file and set theme variable to next."></a>（3）After the installation, open Hexo config file and set <code>theme</code> variable to <code>next</code>.</h3><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">theme: next</span><br></pre></td></tr></table></figure>
+
+<h3 id="（4）执行命令hexo-s-打开网址-http-localhost-4000"><a href="#（4）执行命令hexo-s-打开网址-http-localhost-4000" class="headerlink" title="（4）执行命令hexo s,打开网址 http://localhost:4000/"></a>（4）执行命令<code>hexo s</code>,打开网址 <a href="http://localhost:4000/">http://localhost:4000/</a></h3><h2 id="Github部署"><a href="#Github部署" class="headerlink" title="Github部署"></a><i class="fa-brands fa-github"></i>Github部署</h2><h3 id="（1）github创建仓库"><a href="#（1）github创建仓库" class="headerlink" title="（1）github创建仓库"></a>（1）github创建仓库</h3><h4 id="仓库名必须是用户名-github-io"><a href="#仓库名必须是用户名-github-io" class="headerlink" title="仓库名必须是用户名 + .github.io"></a>仓库名必须是用户名 + .github.io</h4><h4 id="勾选Add-a-README-file，快速初始化"><a href="#勾选Add-a-README-file，快速初始化" class="headerlink" title="勾选Add a README file，快速初始化"></a>勾选Add a README file，快速初始化</h4><h3 id="（2）创建密钥，git-bash执行"><a href="#（2）创建密钥，git-bash执行" class="headerlink" title="（2）创建密钥，git bash执行"></a>（2）创建密钥，git bash执行</h3><h4 id="创建密钥"><a href="#创建密钥" class="headerlink" title="创建密钥"></a>创建密钥</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C “your_email@youremail.com“</span><br></pre></td></tr></table></figure>
+
+<h4 id="查看密钥，并复制"><a href="#查看密钥，并复制" class="headerlink" title="查看密钥，并复制"></a>查看密钥，并复制</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cat ~/.ssh/id_rsa.pub</span><br></pre></td></tr></table></figure>
+
+<h3 id="（3）Github配置"><a href="#（3）Github配置" class="headerlink" title="（3）Github配置"></a>（3）Github配置</h3><h4 id="点击头像-settings-SSH-and-GPG-keys-New-SSH-Key-粘贴密钥-Add-SSH-Key"><a href="#点击头像-settings-SSH-and-GPG-keys-New-SSH-Key-粘贴密钥-Add-SSH-Key" class="headerlink" title="点击头像-settings-SSH and GPG keys-New SSH Key-粘贴密钥-Add SSH Key"></a>点击头像-settings-SSH and GPG keys-New SSH Key-粘贴密钥-Add SSH Key</h4><h4 id="git-bash执行-1"><a href="#git-bash执行-1" class="headerlink" title="git bash执行"></a>git bash执行</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
+
+<h4 id="提示，输入yes"><a href="#提示，输入yes" class="headerlink" title="提示，输入yes"></a>提示，输入yes</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Are you sure you want to continue connecting (yes/no/[fingerprint])? </span><br></pre></td></tr></table></figure>
+
+<h4 id="在github项目中选择Code-SSH-复制链接"><a href="#在github项目中选择Code-SSH-复制链接" class="headerlink" title="在github项目中选择Code-SSH-复制链接"></a>在github项目中选择Code-SSH-复制链接</h4><h4 id="open-Hexo-config-file，修改deploy信息"><a href="#open-Hexo-config-file，修改deploy信息" class="headerlink" title="open Hexo config file，修改deploy信息"></a>open Hexo config file，修改deploy信息</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: 你复制的地址</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+
+<h4 id="在博客根目录下打开git-bash，执行"><a href="#在博客根目录下打开git-bash，执行" class="headerlink" title="在博客根目录下打开git bash，执行"></a>在博客根目录下打开git bash，执行</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;yourname&quot;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.email &quot;youremail&quot;</span><br></pre></td></tr></table></figure>
+
+<h4 id="安装上传插件"><a href="#安装上传插件" class="headerlink" title="安装上传插件"></a>安装上传插件</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cnpm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
+
+<h3 id="（4）上传"><a href="#（4）上传" class="headerlink" title="（4）上传"></a>（4）上传</h3><h4 id="在博客根目录下打开git-bash，执行-1"><a href="#在博客根目录下打开git-bash，执行-1" class="headerlink" title="在博客根目录下打开git bash，执行"></a>在博客根目录下打开git bash，执行</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo g -d</span><br></pre></td></tr></table></figure>
+
+<h3 id="（5）Source"><a href="#（5）Source" class="headerlink" title="（5）Source"></a>（5）Source</h3><h4 id="Github打开项目-Settings-Pages-将Branch改为master"><a href="#Github打开项目-Settings-Pages-将Branch改为master" class="headerlink" title="Github打开项目-Settings-Pages-将Branch改为master"></a>Github打开项目-Settings-Pages-将Branch改为master</h4><h3 id="（6）访问Your-site-is-live-at-https-zzyyyds0-github-io"><a href="#（6）访问Your-site-is-live-at-https-zzyyyds0-github-io" class="headerlink" title="（6）访问Your site is live at https://zzyyyds0.github.io/"></a>（6）访问Your site is live at <a href="https://zzyyyds0.github.io/">https://zzyyyds0.github.io/</a></h3>]]></content>
+      <categories>
+        <category>Deploy</category>
+        <category>NexT</category>
+        <category>Hexo</category>
+        <category>Github</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>NexT|配置</title>
+    <url>/2023/01/01/test2/</url>
+    <content><![CDATA[<h2 id="修改主题配置-config-yml"><a href="#修改主题配置-config-yml" class="headerlink" title="修改主题配置_config.yml"></a>修改主题配置_config.yml</h2><ol>
+<li>Create a config file in site’s root directory, e.g. .<code>_config.next.yml</code></li>
+<li>Copy needed NexT theme options from NexT config file into this config file.</li>
+</ol>
+<p>修改_config.next.yml</p>
+<p>参考<a href="https://theme-next.js.org/docs/theme-settings/">Theme Settings | NexT (theme-next.js.org)</a></p>
+<span id="more"></span>
+
+<p>1、添加不蒜子统计</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">\# Show Views / Visitors of the website / page with busuanzi.</span><br><span class="line">\# Get more information on http://ibruce.info/2015/04/04/busuanzi</span><br><span class="line">busuanzi_count:</span><br><span class="line"> enable: true</span><br><span class="line"> total_visitors: true</span><br><span class="line"> total_visitors_icon: fa fa-user</span><br><span class="line"> total_views: true</span><br><span class="line"> total_views_icon: fa fa-eye</span><br><span class="line"> post_views: true</span><br><span class="line"> post_views_icon: fa fa-eye</span><br></pre></td></tr></table></figure>
+
+<p>2、增加page</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">menu:</span><br><span class="line"> home: / || fa fa-home</span><br><span class="line"> about: /about/ || fa fa-user</span><br><span class="line"> tags: /tags/ || fa fa-tags</span><br><span class="line"> categories: /categories/ || fa fa-th</span><br><span class="line"> archives: /archives/ || fa fa-archive</span><br></pre></td></tr></table></figure>
+
+<p>git bash执行</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo n page about</span><br></pre></td></tr></table></figure>
+
+<p>修改source&#x2F;about&#x2F;index.md中 <code>type: about</code></p>
+<p>3、更改主题样式</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Schemes</span><br><span class="line">#scheme: Muse</span><br><span class="line">#scheme: Mist</span><br><span class="line">scheme: Pisces</span><br><span class="line">#scheme: Gemini</span><br></pre></td></tr></table></figure>
+
+<p>4、更改标题，作者。修改站点配置</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Site</span><br><span class="line">title: 恰逢阵雨</span><br><span class="line">subtitle: &#x27;&#x27;</span><br><span class="line">description: &#x27;&#x27;</span><br><span class="line">keywords:</span><br><span class="line">author: NERV</span><br><span class="line">language: zh-CN</span><br><span class="line">timezone: &#x27;&#x27;</span><br></pre></td></tr></table></figure>
+
+<p>5、侧边栏社交链接</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Social Links</span><br><span class="line"># Usage: `Key: permalink || icon`</span><br><span class="line"># Key is the link label showing to end users.</span><br><span class="line"># Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.</span><br><span class="line">social:</span><br><span class="line">  bilibili: https://space.bilibili.com/26069579 || fa-brands fa-bilibili</span><br><span class="line">  steam: https://steamcommunity.com/id/zzyyyds0 || fa-brands fa-steam</span><br></pre></td></tr></table></figure>
+
+<p>6、启用友情链接</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">links:</span><br><span class="line">  #Title: http://yoursite.com</span><br></pre></td></tr></table></figure>
+
+<p>7、增加一篇博客</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo n &quot;test&quot;</span><br></pre></td></tr></table></figure>
+
+<p>8、Local Search</p>
+<p>安装 <code>hexo-generator-searchdb</code>，在站点的根目录下执行以下命令：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">cnpm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
+
+<p>编辑 <strong>站点配置文件</strong>，新增以下内容到任意位置：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br><span class="line">  format: html</span><br><span class="line">  limit: 10000</span><br></pre></td></tr></table></figure>
+
+<p>编辑 <strong>主题配置文件</strong>，启用本地搜索功能：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">local_search:</span><br><span class="line">  enable: true</span><br></pre></td></tr></table></figure>
+
+<p>9、删除底部强力驱动</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># Powered by Hexo &amp; NexT</span><br><span class="line">powered: false</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>NexT</category>
+        <category>Config</category>
+      </categories>
+      <tags>
+        <tag>Config</tag>
+      </tags>
+  </entry>
+</search>
